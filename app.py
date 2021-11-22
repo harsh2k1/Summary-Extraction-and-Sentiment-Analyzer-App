@@ -1,5 +1,4 @@
 import streamlit as st 
-import re
 import pandas as pd
 df = pd.read_csv('processed_book_data.csv')
 books = list(df['Title'])
